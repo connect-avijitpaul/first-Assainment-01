@@ -118,7 +118,6 @@ ul a {
   background: #fff;
   border: 1px solid #eee;
   border-radius: 8px;
-  overflow: hidden;
   text-align: left;
 }
 
@@ -159,4 +158,76 @@ ul a {
   .spakers-section {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* Section */
+
+.secure-section{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.secure-section p{
+    color: gray;
+}
+
+/* Container */
+
+.secure-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* Card */
+
+.card{
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.card ol{
+    padding-left: 20px;
+    line-height: 35px;
+    flex-grow: 1;
+}
+
+.card button{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: white;
+    color: blue;
+}
+
+/* PRO Card */
+
+.pro{
+    background: #0f172a;
+    color: white;
+}
+
+.pro p{
+    color: white;
+}
+
+.pro button{
+    background: #2563eb;
+    color: white;
+    border: none;
 }
